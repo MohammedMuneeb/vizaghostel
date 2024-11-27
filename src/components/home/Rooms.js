@@ -173,7 +173,7 @@ export default function Rooms  (){
           {/* <input type ="email" name  ="email"  placeholder ="Enter your Email Address"onChange ={handleChange }/>  */} 
           <div class  ="col-md-15"> 
           <div class  ="css-1dcixy3"><span class="css-1brwlkf"> 
-            <a tabindex="0" class=" css-iomibd" href="https://www.mongodb.com" data-track="true"><a class=" css-13aqjzy"> 
+            <a tabindex="0" class=" css-iomibd" href ="" data-track="true"><a class=" css-13aqjzy"> 
             
             <img src ="https://webimages.mongodb.com/_com_assets/cms/kr6fvgdym4qzsgqo3-Google%20Icon.svg?auto=format%252Ccompress" class=" css-lvknyb" alt="SSO provider logo"/></a> 
           Sign up with Google </a></span></div> 

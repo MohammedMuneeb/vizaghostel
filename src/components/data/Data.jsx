@@ -70,15 +70,15 @@ export const carouselData = [
     img: "../assets/img/carousel-1.jpg",
     title: "Discover A Luxurious Hostel Best Suited for Students and Professionals ", 
     subtitle: "luxury living",
-    btn1: "Our Room",
-    btn2: "Book Room",
-  },
+    // btn1: "Our Room",
+    // btn2: "Book Room",
+  }, 
   {
     img: "../assets/img/carousel-2.jpg",
     title  :"Discover A Luxurious Hostel Best Suited for Students and Professionals ", 
     subtitle: "luxury living", 
-    btn1: "Our Room", 
-    btn2: "Book Room",
+    // btn1: "Our Room", 
+    // btn2: "Book Room",
   },
 ];
 export const about = [

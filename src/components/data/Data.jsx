@@ -80,22 +80,22 @@ export const carouselData = [
     // btn1: "Our Room", 
     // btn2: "Book Room",
   },
-];
+]; 
 export const about = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary mb-2"></i>,
     text: "Rooms",
-    count: "7861",
+    count: "40", 
   },
   {
     icon: <i class="fa fa-users fa-2x text-primary mb-2"></i>,
     text: "Staffs",
-    count: "1234",
-  },
+    count: "20", 
+  }, 
   {
     icon: <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>,
     text: "Clients",
-    count: "4321",
+    count: "200 ", 
   },
 ];
 
@@ -283,9 +283,9 @@ export const testimonial = [
 export const roomItems = [
   {
     img: "../assets/img/room-1.jpg",
-    price: "$110/night",
+    price: "8000/month", 
     name: "Junior Suit",
-    star: [
+    star: [ 
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -301,7 +301,7 @@ export const roomItems = [
 
   {
     img: "../assets/img/room-2.jpg",
-    price: "$110/night",
+    price: "8000/month", 
     name: "Executive Suite",
     star: [
       <small class="fa fa-star text-primary"></small>,
@@ -318,7 +318,7 @@ export const roomItems = [
   },
   {
     img: "../assets/img/room-3.jpg",
-    price: "$110/night",
+    price: "12000/month",
     name: "Super Deluxe",
     star: [
       <small class="fa fa-star text-primary"></small>,

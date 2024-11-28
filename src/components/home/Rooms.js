@@ -114,7 +114,7 @@ export default function Rooms  (){
     ); 
   }; 
   return ( 
-    <>
+    <>  
       <div className="container-xxl py-5">
         <div className="container">
           <CommonHeading
@@ -122,7 +122,7 @@ export default function Rooms  (){
             title="Rooms"
             subtitle="Explore Our"
           /> 
-          <div className="row g-4">
+          <div className ="row g-4"> 
             {roomItems.map((item ,)=>( 
               <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div className="room-item shadow rounded overflow-hidden">
@@ -166,8 +166,8 @@ export default function Rooms  (){
         <h2  >Selected Item  :</h2 > 
         <p>{selectedItem?.name}</p>
         <p>{selectedItem?.description }</p > 
-        <p >Price :{selectedItem ?.Price }</p > 
-        <p >Quantity :{selectedItem ?.Quantity }</p  > 
+        <p >Price :{selectedItem ?.price }</p > 
+        {/* <p >Quantity :{selectedItem ?.quantity }</p  >  */} 
         <form onSubmit ={handleSubmit }> 
           {/* <input type ="text" name  ="name"  placeholder ="Enter your full Name "onChange ={handleChange }/>  */} 
           {/* <input type ="email" name  ="email"  placeholder ="Enter your Email Address"onChange ={handleChange }/>  */} 
